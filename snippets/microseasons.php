@@ -11,9 +11,11 @@
         <?= $matchSeason['translation'] ?> 
         <?= $matchSeason['name'] ?>
       </span>
-      <time class="ms__range" datetime="<?= $matchSeason['start'] ?>/<?= $matchSeason['end']?>">
-        <?= $matchSeason['start']->format(option('scottboms.microseasons.dateformat', 'M/d')) ?> to <?= $matchSeason['end']->format(option('scottboms.microseasons.dateformat', 'M/d')) ?>
-      </time>
+      <?php if(option('scottboms.microseasons.includedates') === True): ?>
+        <time class="ms__range" datetime="<?= $matchSeason['start'] ?>/<?= $matchSeason['end']?>">
+        <?= $matchSeason['start']->format(option('scottboms.microseasons.dateformat', 'M/d')) ?> to <?= $matchSeason['end']->format(option('scottboms.microseasons.dateformat', 'M/d')) ?></time> 
+      <?php else: ?>
+      <?php endif ?>
     </dd>
   </dl>
 </div>

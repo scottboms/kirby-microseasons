@@ -32,9 +32,10 @@ In any template, drop in the following line to include the output from this plug
 If you want to modify the wrapper HTML element, change the wrapper class, or output the date information in a custom format, you can configure this using the included plugin options. Date formatting follows the [available format options from PHP](https://www.php.net/manual/en/function.date.php).
 
     'scottboms.microseasons' => [
-      'wrapper' => 'div',
+      'wrapper' => 'div', // e.g. div, article, section, span, etc.
       'class' => 'microseasons',
-      'dateformat' => 'M d, Y'
+			'includedates' => True, // True | False
+      'dateformat' => 'M d, Y' // e.g. 'M d', 'Y-m-d', etc.
     ],
 
 ## Disclaimer
