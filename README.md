@@ -33,8 +33,8 @@ If you want to modify the wrapper HTML element, change the wrapper class, or out
 
     'scottboms.microseasons' => [
       'wrapper' => 'div', // e.g. div, article, section, span, etc.
-      'class' => 'microseasons',
-			'includedates' => True, // True | False
+      'class' => 'microseasons', 
+      'includedates' => True, // True | False
       'dateformat' => 'M d, Y' // e.g. 'M d', 'Y-m-d', etc.
     ],
 
