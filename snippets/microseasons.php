@@ -17,4 +17,4 @@
       <?php endif ?>
     </dd>
   </dl>
-</div>
+</<?= option('scottboms.microseasons.wrapper', 'div') ?>>
