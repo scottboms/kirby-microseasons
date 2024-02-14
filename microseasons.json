@@ -3,504 +3,504 @@
 		"period": "Beginning of Spring",
     "name": "East wind melts the ice",
     "translation": "東風解凍",
-    "start": "02-04",
-    "end": "02-08"
+    "start": "2024-02-04",
+    "end": "2024-02-08"
   },
 	"02090213": {
 		"period": "Beginning of Spring",
 		"name": "Bush warblers start singing in the mountains",
 		"translation": "黄鶯睍睆",
-		"start": "02-09",
-		"end": "02-13"
+		"start": "2024-02-09",
+		"end": "2024-02-13"
 	},
 	"02140218": {
 		"period": "Beginning of Spring",
 		"name": "Fish emerge from the ice",
 		"translation": "魚上氷",
-		"start": "02-14",
-		"end": "02-18"
+		"start": "2024-02-14",
+		"end": "2024-02-18"
 	},
 	"02190223": {
 		"period": "Rainwater",
 		"name": "Rain moistens the soil",
 		"translation": "土脉潤起",
-		"start": "02-19",
-		"end": "02-23"
+		"start": "2024-02-19",
+		"end": "2024-02-23"
 	},
 	"02240229": {
 		"period": "Rainwater",
 		"name": "Mist starts to linger",
 		"translation": "霞始靆",
-		"start": "02-24",
-		"end": "02-29"
+		"start": "2024-02-24",
+		"end": "2024-02-29"
 	},
 	"03010305": {
 		"period": "Rainwater",
 		"name": "Grass sprouts, trees buds",
 		"translation": "草木萌動",
-		"start": "03-01",
-		"end": "03-05"
+		"start": "2024-03-01",
+		"end": "2024-03-05"
 	},
 	"03060310": {
 		"period": "Insects awaken",
 		"name": "Hibernating insects surface",
 		"translation": "蟄虫啓戸",
-		"start": "03-06",
-		"end": "03-10"
+		"start": "2024-03-06",
+		"end": "2024-03-10"
 	},
 	"03110315": {
 		"period": "Insects awaken",
 		"name": "First peach blossoms",
 		"translation": "桃始笑",
-		"start": "03-11",
-		"end": "03-15"
+		"start": "2024-03-11",
+		"end": "2024-03-15"
 	},
 	"03160320": {
 		"period": "Insects awaken",
 		"name": "Caterpillars become butterflies",
 		"translation": "菜虫化蝶",
-		"start": "03-16",
-		"end": "03-20"
+		"start": "2024-03-16",
+		"end": "2024-03-20"
 	},
 	"03210325": {
 		"period": "Spring equinox",
 		"name": "Sparrows start to nest",
 		"translation": "雀始巣",
-		"start": "03-21",
-		"end": "03-25"
+		"start": "2024-03-21",
+		"end": "2024-03-25"
 	},
 	"03260330": {
 		"period": "Spring equinox",
 		"name": "First cherry blossoms",
 		"translation": "櫻始開",
-		"start": "03-26",
-		"end": "03-30"
+		"start": "2024-03-26",
+		"end": "2024-03-30"
 	},
 	"03310404": {
 		"period": "Spring equinox",
 		"name": "The sound of distant thunder",
 		"translation": "雷乃発声",
-		"start": "03-31",
-		"end": "04-04"
+		"start": "2024-03-31",
+		"end": "2024-04-04"
 	},
 	"04050409": {
 		"period": "Pure and clear",
 		"name": "Swallows return",
 		"translation": "玄鳥至",
-		"start": "04-05",
-		"end": "04-09"
+		"start": "2024-04-05",
+		"end": "2024-04-09"
 	},
 	"04100414": {
 		"period": "Pure and clear",
 		"name": "Wild geese fly North",
 		"translation": "鴻雁北",
-		"start": "04-10",
-		"end": "04-14"
+		"start": "2024-04-10",
+		"end": "2024-04-14"
 	},
 	"04150419": {
 		"period": "Pure and clear",
 		"name": "First rainbows",
 		"translation": "虹始見",
-		"start": "04-15",
-		"end": "04-19"
+		"start": "2024-04-15",
+		"end": "2024-04-19"
 	},
 	"04200424": {
 		"period": "Grain rains",
 		"name": "Reeds sprout",
 		"translation": "葭始生",
-		"start": "04-20",
-		"end": "04-24"
+		"start": "2024-04-20",
+		"end": "2024-04-24"
 	},
 	"04250429": {
 		"period": "Grain rains",
 		"name": "Frost stops. Rice grows",
 		"translation": "霜止出苗",
-		"start": "04-25",
-		"end": "04-29"
+		"start": "2024-04-25",
+		"end": "2024-04-29"
 	},
 	"04300504": {
 		"period": "Grain rains",
 		"name": "Peonies bloom",
 		"translation": "牡丹華",
-		"start": "04-30",
-		"end": "05-04"
+		"start": "2024-04-30",
+		"end": "2024-05-04"
 	},
 	"05050509": {
 		"period": "Beginning of Summer",
 		"name": "Frogs start singing",
 		"translation": "蛙始鳴",
-		"start": "05-05",
-		"end": "05-09"
+		"start": "2024-05-05",
+		"end": "2024-05-09"
 	},
 	"05100514": {
 		"period": "Beginning of Summer",
 		"name": "Worms surface",
 		"translation": "蚯蚓出",
-		"start": "05-10",
-		"end": "05-14"
+		"start": "2024-05-10",
+		"end": "2024-05-14"
 	},
 	"05150520": {
 		"period": "Beginning of Summer",
 		"name": "Bamboo shoots sprout",
 		"translation": "竹笋生",
-		"start": "05-15",
-		"end": "05-20"
+		"start": "2024-05-15",
+		"end": "2024-05-20"
 	},
 	"05210525": {
 		"period": "The lesser fullness",
 		"name": "Silkworms start feasting on mulberry leaves",
 		"translation": "蚕起食桑",
-		"start": "05-21",
-		"end": "05-25"
+		"start": "2024-05-21",
+		"end": "2024-05-25"
 	},
 	"05260530": {
 		"period": "The lesser fullness",
 		"name": "Safflowers bloom",
 		"translation": "紅花栄",
-		"start": "05-26",
-		"end": "05-30"
+		"start": "2024-05-26",
+		"end": "2024-05-30"
 	},
 	"05310605": {
 		"period": "The lesser fullness",
 		"name": "Whats ripens and is harvested",
 		"translation": "麦秋至",
-		"start": "05-31",
-		"end": "06-05"
+		"start": "2024-05-31",
+		"end": "2024-06-05"
 	},
 	"06060610": {
 		"period": "Grain seeds growing",
 		"name": "Praying mantises hatch",
 		"translation": "蟷螂生",
-		"start": "06-06",
-		"end": "06-10"
+		"start": "2024-06-06",
+		"end": "2024-06-10"
 	},
 	"06110615": {
 		"period": "Grain seeds growing",
 		"name": "Rotten grass becomes fireflies",
 		"translation": "腐草為螢",
-		"start": "06-11",
-		"end": "06-15"
+		"start": "2024-06-11",
+		"end": "2024-06-15"
 	},
 	"06160620": {
 		"period": "Grain seeds growing",
 		"name": "Plums turn yellow",
 		"translation": "梅子黄",
-		"start": "06-16",
-		"end": "06-20"
+		"start": "2024-06-16",
+		"end": "2024-06-20"
 	},
 	"06210626": {
 		"period": "Summer arrives",
 		"name": "Self-heal withers",
 		"translation": "乃東枯",
-		"start": "06-21",
-		"end": "06-26"
+		"start": "2024-06-21",
+		"end": "2024-06-26"
 	},
 	"06270701": {
 		"period": "Summer arrives",
 		"name": "Irises bloom",
 		"translation": "菖蒲華",
-		"start": "06-27",
-		"end": "07-01"
+		"start": "2024-06-27",
+		"end": "2024-07-01"
 	},
 	"07020706": {
 		"period": "Summer arrives",
 		"name": "Crow-dipper sprouts",
 		"translation": "半夏生",
-		"start": "07-02",
-		"end": "07-06"
+		"start": "2024-07-02",
+		"end": "2024-07-06"
 	},
 	"07070711": {
 		"period": "Lesser heat",
 		"name": "Warm winds blow",
 		"translation": "温風至",
-		"start": "07-07",
-		"end": "07-11"
+		"start": "2024-07-07",
+		"end": "2024-07-11"
 	},
 	"07120716": {
 		"period": "Lesser heat",
 		"name": "First lotus blossoms",
 		"translation": "蓮始開",
-		"start": "07-12",
-		"end": "07-16"
+		"start": "2024-07-12",
+		"end": "2024-07-16"
 	},
 	"07170722": {
 		"period": "Lesser heat",
 		"name": "Hawks learn to fly",
 		"translation": "鷹乃学習",
-		"start": "07-17",
-		"end": "07-22"
+		"start": "2024-07-17",
+		"end": "2024-07-22"
 	},
 	"07230728": {
 		"period": "Great heat",
 		"name": "Paulownia trees produce seeds",
 		"translation": "桐始結花",
-		"start": "07-23",
-		"end": "07-28"
+		"start": "2024-07-23",
+		"end": "2024-07-28"
 	},
 	"07290802": {
 		"period": "Great heat",
 		"name": "Earth is damp, air is humid",
 		"translation": "土潤溽暑",
-		"start": "07-29",
-		"end": "08-02"
+		"start": "2024-07-29",
+		"end": "2024-08-02"
 	},
 	"08030807": {
 		"period": "Great heat",
 		"name": "Great rains sometimes fall",
 		"translation": "大雨時行",
-		"start": "08-03",
-		"end": "08-07"
+		"start": "2024-08-03",
+		"end": "2024-08-07"
 	},
 	"08080812": {
 		"period": "Beginning of autumn",
 		"name": "Cool winds blow",
 		"translation": "涼風至",
-		"start": "08-08",
-		"end": "08-12"
+		"start": "2024-08-08",
+		"end": "2024-08-12"
 	},
 	"08130817": {
 		"period": "Beginning of autumn",
 		"name": "Evening cicadas sing",
 		"translation": "寒蝉鳴",
-		"start": "08-13",
-		"end": "08-17"
+		"start": "2024-08-13",
+		"end": "2024-08-17"
 	},
 	"08180822": {
 		"period": "Beginning of autumn",
 		"name": "Thick fog descends",
 		"translation": "蒙霧升降",
-		"start": "08-18",
-		"end": "08-22"
+		"start": "2024-08-18",
+		"end": "2024-08-22"
 	},
 	"08230827": {
 		"period": "The limit of heat",
 		"name": "Cotton flowers open",
 		"translation": "",
-		"start": "08-23",
-		"end": "08-27"
+		"start": "2024-08-23",
+		"end": "2024-08-27"
 	},
 	"08280901": {
 		"period": "The limit of heat",
 		"name": "Earth and sky begin to cool",
 		"translation": "天地始粛",
-		"start": "08-28",
-		"end": "09-01"
+		"start": "2024-08-28",
+		"end": "2024-09-01"
 	},
 	"09020907": {
 		"period": "The limit of heat",
 		"name": "Rice ripens",
 		"translation": "禾乃登",
-		"start": "09-02",
-		"end": "09-07"
+		"start": "2024-09-02",
+		"end": "2024-09-07"
 	},
 	"09080912": {
 		"period": "White dew",
 		"name": "Dew glistens white on grass",
 		"translation": "草露白",
-		"start": "09-08",
-		"end": "09-12"
+		"start": "2024-09-08",
+		"end": "2024-09-12"
 	},
 	"09130917": {
 		"period": "White dew",
 		"name": "Wagtails sing",
 		"translation": "鶺鴒鳴",
-		"start": "09-13",
-		"end": "09-17"
+		"start": "2024-09-13",
+		"end": "2024-09-17"
 	},
 	"09180922": {
 		"period": "White dew",
 		"name": "Swallows leave",
 		"translation": "玄鳥去",
-		"start": "09-18",
-		"end": "09-22"
+		"start": "2024-09-18",
+		"end": "2024-09-22"
 	},
 	"09230927": {
 		"period": "Autumn equinox",
 		"name": "Thunder ceases",
 		"translation": "雷乃収声",
-		"start": "09-23",
-		"end": "09-27"
+		"start": "2024-09-23",
+		"end": "2024-09-27"
 	},
 	"09281002": {
 		"period": "Autumn equinox",
 		"name": "Insects hole up underground",
 		"translation": "蟄虫坏戸",
-		"start": "09-28",
-		"end": "10-02"
+		"start": "2024-09-28",
+		"end": "2024-10-02"
 	},
 	"10031007": {
 		"period": "Autumn equinox",
 		"name": "Farmers drain fields",
 		"translation": "水始涸",
-		"start": "10-03",
-		"end": "10-07"
+		"start": "2024-10-03",
+		"end": "2024-10-07"
 	},
 	"10081012": {
 		"period": "Cold dew",
 		"name": "Wild geese return",
 		"translation": "鴻雁来",
-		"start": "10-08",
-		"end": "10-12"
+		"start": "2024-10-08",
+		"end": "2024-10-12"
 	},
 	"10131017": {
 		"period": "Cold dew",
 		"name": "Chrysanthemums bloom",
 		"translation": "菊花開",
-		"start": "10-13",
-		"end": "10-17"
+		"start": "2024-10-13",
+		"end": "2024-10-17"
 	},
 	"10181022": {
 		"period": "Cold dew",
 		"name": "Crickets chirp around the door",
 		"translation": "蟋蟀在戸",
-		"start": "10-18",
-		"end": "10-22"
+		"start": "2024-10-18",
+		"end": "2024-10-22"
 	},
 	"10231027": {
 		"period": "Frost falls",
 		"name": "First frost",
 		"translation": "霜始降",
-		"start": "10-23",
-		"end": "10-27"
+		"start": "2024-10-23",
+		"end": "2024-10-27"
 	},
 	"10281101": {
 		"period": "Frost falls",
 		"name": "Light rains sometimes fall",
 		"translation": "霎時施",
-		"start": "10-28",
-		"end": "11-01"
+		"start": "2024-10-28",
+		"end": "2024-11-01"
 	},
 	"11021106": {
 		"period": "Frost falls",
 		"name": "Maple leaves and ivy turn yellow",
 		"translation": "楓蔦黄",
-		"start": "11-02",
-		"end": "11-06"
+		"start": "2024-11-02",
+		"end": "2024-11-06"
 	},
 	"11071111": {
 		"period": "First winter",
 		"name": "Camelias bloom",
 		"translation": "山茶始開",
-		"start": "11-07",
-		"end": "11-11"
+		"start": "2024-11-07",
+		"end": "2024-11-11"
 	},
 	"11121116": {
 		"period": "First winter",
 		"name": "Land starts to freeze",
 		"translation": "地始凍",
-		"start": "11-12",
-		"end": "11-16"
+		"start": "2024-11-12",
+		"end": "2024-11-16"
 	},
 	"11171121": {
 		"period": "First winter",
 		"name": "Daffodils bloom",
 		"translation": "金盞香",
-		"start": "11-17",
-		"end": "11-21"
+		"start": "2024-11-17",
+		"end": "2024-11-21"
 	},
 	"11221126": {
 		"period": "Lesser snow",
 		"name": "Rainbows hide",
 		"translation": "虹蔵不見",
-		"start": "11-22",
-		"end": "11-26"
+		"start": "2024-11-22",
+		"end": "2024-11-26"
 	},
 	"11271201": {
 		"period": "Lesser snow",
 		"name": "North wind blows the leaves from the trees",
 		"translation": "朔風払葉",
-		"start": "11-27",
-		"end": "12-01"
+		"start": "2024-11-27",
+		"end": "2024-12-01"
 	},
 	"12021206": {
 		"period": "Lesser snow",
 		"name": "Tachibana citrus tree leaves start to turn yellow",
 		"translation": "橘始黄",
-		"start": "12-02",
-		"end": "12-06"
+		"start": "2024-12-02",
+		"end": "2024-12-06"
 	},
 	"12071211": {
 		"period": "Greater snow",
 		"name": "Cold sets in, winter begins",
 		"translation": "閉塞成冬",
-		"start": "12-07",
-		"end": "12-11"
+		"start": "2024-12-07",
+		"end": "2024-12-11"
 	},
 	"12121216": {
 		"period": "Greater snow",
 		"name": "Bears start hibernating in their dens",
 		"translation": "熊蟄穴",
-		"start": "12-12",
-		"end": "12-16"
+		"start": "2024-12-12",
+		"end": "2024-12-16"
 	},
 	"12171221": {
 		"period": "Greater snow",
 		"name": "Salmons gather and swim upstream",
 		"translation": "鱖魚群",
-		"start": "12-17",
-		"end": "12-21"
+		"start": "2024-12-17",
+		"end": "2024-12-21"
 	},
 	"12221226": {
 		"period": "Winter begins",
 		"name": "Self-heal sprouts",
 		"translation": "乃東生",
-		"start": "12-22",
-		"end": "12-26"
+		"start": "2024-12-22",
+		"end": "2024-12-26"
 	},
 	"12271231": {
 		"period": "Winter begins",
 		"name": "Deer shed antlers",
 		"translation": "麋角解",
-		"start": "12-27",
-		"end": "12-31"
+		"start": "2024-12-27",
+		"end": "2024-12-31"
 	},
 	"01010104": {
 		"period": "Winter begins",
 		"name": "Wheat sprouts under snow",
 		"translation": "雪下出麦",
-		"start": "01-01",
-		"end": "01-04"
+		"start": "2024-01-01",
+		"end": "2024-01-04"
 	},
 	"01050109": {
 		"period": "Lesser cold",
 		"name": "Parsley flourishes",
 		"translation": "芹乃栄",
-		"start": "01-05",
-		"end": "01-09"
+		"start": "2024-01-05",
+		"end": "2024-01-09"
 	},
 	"01100114": {
 		"period": "Lesser cold",
 		"name": "Springs thaw",
 		"translation": "水泉動",
-		"start": "01-10",
-		"end": "01-14"
+		"start": "2024-01-10",
+		"end": "2024-01-14"
 	},
 	"01150119": {
 		"period": "Lesser cold",
 		"name": "Pheasants start to call",
 		"translation": "雉始雊",
-		"start": "01-15",
-		"end": "01-19"
+		"start": "2024-01-15",
+		"end": "2024-01-19"
 	},
 	"01200124": {
 		"period": "Greater cold",
 		"name": "Butterburs bud",
 		"translation": "款冬華",
-		"start": "01-20",
-		"end": "01-24"
+		"start": "2024-01-20",
+		"end": "2024-01-24"
 	},
 	"01250129": {
 		"period": "Greater cold",
 		"name": "Ice thickens on streams",
 		"translation": "水沢腹堅",
-		"start": "01-25",
-		"end": "01-29"
+		"start": "2024-01-25",
+		"end": "2024-01-29"
 	},
 	"01300203": {
 		"period": "Greater cold",
 		"name": "Hens start to lay eggs",
 		"translation": "鶏始乳",
-		"start": "01-30",
-		"end": "02-03"
+		"start": "2024-01-30",
+		"end": "2024-02-03"
 	}
 }
