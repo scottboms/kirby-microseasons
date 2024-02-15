@@ -17,26 +17,44 @@ class Season {
     // convert $today passed to 4-character mmdd format
     // since we don't care about the specific year
     $timestamp = Date::createFromFormat('Y-m-d', $today);
+    $currentYear = Date::createFromFormat('Y-m-d', $today)->format('Y');
 
-    // create $currentSeason to hold an array of data to return
+    $wrapper = option('scottboms.microseasons.wrapper') ?? 'div';
+    $class = option('scottboms.microseasons.class') ?? 'microseasons';
+    $includedates = option('scottboms.microseasons.includedates') ?? True;
+
+    // initialize $currentSeason to hold an array of data to return
     $currentSeason = array();
 
     // check which season the current date falls within
     foreach ($seasonsArray as $season) {
-      $start = Date::createFromFormat('Y-m-d', $season["start"]);
-      $end = Date::createFromFormat('Y-m-d', $season["end"]);
+      // handle updating the raw dates from the json values
+      $start = Date::createFromFormat('Y-m-d', $currentYear . '-' . substr($season["start"], 5));
+      $end = Date::createFromFormat('Y-m-d', $currentYear . '-' . substr($season["end"], 5));
 
       // adjust the start and end dates to handle year transitions
       if ($start > $end) {
-        if ($timestamp >= $start || $timestamp < $end) {
+        if ($timestamp >= $start || $timestamp <= $end) {
           $season['start'] = $start->format(option("scottboms.microseasons.dateformat")) ?? $start->format('M d');
           $season['end'] = $end->format(option("scottboms.microseasons.dateformat")) ?? $end->format('M d');
+          $season['wrapper'] = $wrapper;
+          $season['class'] = $class;
+          $season['includedates'] = $includedates;
+          $season['year'] = $currentYear;
+          $season['start'] = $season['start'];
+          $season['end'] = $season['end'];
           return $currentSeason[] = $season; // return the matching season
         }
       } else {
-        if ($timestamp >= $start && $timestamp < $end) {
+        if ($timestamp >= $start && $timestamp <= $end) {
           $season['start'] = $start->format(option("scottboms.microseasons.dateformat")) ?? $start->format('M d');
           $season['end'] = $end->format(option("scottboms.microseasons.dateformat")) ?? $end->format('M d');
+          $season['wrapper'] = $wrapper;
+          $season['class'] = $class;
+          $season['includedates'] = $includedates;
+          $season['year'] = $currentYear;
+          $season['start'] = $season['start'];
+          $season['end'] = $season['end'];
           return $currentSeason[] = $season; // return the matching season
         }
       }
