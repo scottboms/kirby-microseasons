@@ -1,5 +1,5 @@
 <?php
-  $currentDate = date("Y-m-d");
+  $currentDate = Scottboms\Microseasons\Season::getCurrentDate();
   $jsonSeasons = Scottboms\Microseasons\Season::getAllSeasons();
   $matchSeason = Scottboms\Microseasons\Season::getSeason($currentDate, $jsonSeasons);
 ?>

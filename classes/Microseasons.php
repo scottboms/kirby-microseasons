@@ -5,6 +5,11 @@ use Kirby\Toolkit\Date;
 
 class Season {
   
+  public static function getCurrentDate(): string {
+    $currentDate = date('Y-m-d');
+    return $currentDate;
+  }
+  
   public static function getAllSeasons(): string {
     return __DIR__ . '/../microseasons.json';
   }
@@ -35,8 +40,8 @@ class Season {
       // adjust the start and end dates to handle year transitions
       if ($start > $end) {
         if ($timestamp >= $start || $timestamp <= $end) {
-          $season['start'] = $start->format(option("scottboms.microseasons.dateformat")) ?? $start->format('M d');
-          $season['end'] = $end->format(option("scottboms.microseasons.dateformat")) ?? $end->format('M d');
+          $season['start'] = Season::convertDateFormat($start);
+          $season['end'] = Season::convertDateFormat($end);
           $season['wrapper'] = $wrapper;
           $season['class'] = $class;
           $season['includedates'] = $includedates;
@@ -47,8 +52,8 @@ class Season {
         }
       } else {
         if ($timestamp >= $start && $timestamp <= $end) {
-          $season['start'] = $start->format(option("scottboms.microseasons.dateformat")) ?? $start->format('M d');
-          $season['end'] = $end->format(option("scottboms.microseasons.dateformat")) ?? $end->format('M d');
+          $season['start'] = Season::convertDateFormat($start);
+          $season['end'] = Season::convertDateFormat($end);
           $season['wrapper'] = $wrapper;
           $season['class'] = $class;
           $season['includedates'] = $includedates;
@@ -60,5 +65,10 @@ class Season {
       }
     }
     return $currentSeason;
+  }
+
+  public static function convertDateFormat($dateString): string {
+    $reformattedDate = $dateString->format(option("scottboms.microseasons.dateformat")) ?? $dateString->format('M d');
+    return $reformattedDate;
   }
 }

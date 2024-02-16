@@ -5,7 +5,7 @@
 /**
  * Kirby Japanese Microseasons Plugin
  *
- * @version 1.0.3
+ * @version 1.0.4
  * @author Scott Boms <plugins@scottboms.com>
  * @copyright Scott Boms <plugins@scottboms.com>
  * @link https://github.com/scottboms/kirby-microseasons
@@ -19,8 +19,9 @@ load([
 use Scottboms\Microseasons\Season;
 use Kirby\Toolkit\Date;
 
-Kirby::plugin('scottboms/microseasons', [
+Kirby::plugin('scottboms/kirby-microseasons', [
   'options' => [
+    'cache' => True,
     'wrapper' => 'div',
     'class' => 'microseasons',
     'includedates' => True,
@@ -28,5 +29,9 @@ Kirby::plugin('scottboms/microseasons', [
   ],
   'snippets' => [
     'microseasons' => __DIR__ . '/snippets/microseasons.php'
+  ],
+  'sections' => [
+    'microseasons' => require __DIR__ . '/sections/microseasons.php'
   ]
+
 ]);

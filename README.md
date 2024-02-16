@@ -38,6 +38,14 @@ If you want to modify the wrapper HTML element, change the wrapper class, or out
       'dateformat' => 'M d, Y' // e.g. 'M d', 'Y-m-d', etc.
     ],
 
+## Section
+
+The plugin also includes a custom `section` type called `microseasons` that you can use to display information within the panel. This can be added to a blueprint and also adopts any defined configuration options.
+
+    sections:
+      microseasons:
+        type: microseasons
+
 ## Disclaimer
 
 This plugin is provided "as is" with no guarantee. Use it at your own risk and always test before using it in a production environment. If you identify an issue, typo, etc, please [create a new issue](https://github.com/scottboms/kirby-microseasons/issues/new) so I can investigate.
