@@ -1,7 +1,5 @@
 <?php
 
-//namespace scottboms\microseasons;
-
 /**
  * Kirby Japanese Microseasons Plugin
  *
@@ -19,7 +17,7 @@ load([
 use Scottboms\Microseasons\Season;
 use Kirby\Toolkit\Date;
 
-Kirby::plugin('scottboms/microseasons', [
+Kirby::plugin('scottboms/kirby-microseasons', [
   'options' => [
     'cache' => True,
     'wrapper' => 'div',
