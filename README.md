@@ -18,7 +18,7 @@ Output information for one of the [72 Japanese micro season](https://www.nippon.
 
 ### Copy and Paste
 
-1. [Download](https://github.com/scottboms/kirby-microseasons/archive/master.zip) the contents of this repository as Zip file.
+1. [Download](https://github.com/scottboms/kirby-microseasons/archive/master.zip) the contents of this repository as a Zip file.
 2. Rename the extracted folder to `kirby-microseasons` and copy it into the `site/plugins/` directory in your Kirby project.
 
 ## Usage
