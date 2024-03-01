@@ -36,7 +36,7 @@
 	},
 	"03010305": {
 		"period": "Rainwater",
-		"name": "Grass sprouts, trees buds",
+		"name": "Grass sprouts, trees bud",
 		"translation": "草木萌動",
 		"start": "2024-03-01",
 		"end": "2024-03-05"
@@ -113,7 +113,7 @@
 	},
 	"04250429": {
 		"period": "Grain rains",
-		"name": "Frost stops. Rice grows",
+		"name": "Last frost, rice seedlings grow",
 		"translation": "霜止出苗",
 		"start": "2024-04-25",
 		"end": "2024-04-29"
@@ -162,7 +162,7 @@
 	},
 	"05310605": {
 		"period": "The lesser fullness",
-		"name": "Whats ripens and is harvested",
+		"name": "Wheat ripens and is harvested",
 		"translation": "麦秋至",
 		"start": "2024-05-31",
 		"end": "2024-06-05"
@@ -379,7 +379,7 @@
 	},
 	"11071111": {
 		"period": "First winter",
-		"name": "Camelias bloom",
+		"name": "Camellias bloom",
 		"translation": "山茶始開",
 		"start": "2024-11-07",
 		"end": "2024-11-11"
@@ -435,7 +435,7 @@
 	},
 	"12171221": {
 		"period": "Greater snow",
-		"name": "Salmons gather and swim upstream",
+		"name": "Salmon gather and swim upstream",
 		"translation": "鱖魚群",
 		"start": "2024-12-17",
 		"end": "2024-12-21"
@@ -498,7 +498,7 @@
 	},
 	"01300203": {
 		"period": "Greater cold",
-		"name": "Hens start to lay eggs",
+		"name": "Hens start laying eggs",
 		"translation": "鶏始乳",
 		"start": "2024-01-30",
 		"end": "2024-02-03"
