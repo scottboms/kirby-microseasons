@@ -3,7 +3,7 @@ panel.plugin('scottboms/microseasons', {
     microseasons: {
       data: function () {
         return {
-          microSeason: null
+          microSeason: Array
         }
       },
       created: function() {
