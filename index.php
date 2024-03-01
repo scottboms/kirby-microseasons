@@ -3,7 +3,7 @@
 /**
  * Kirby Japanese Microseasons Plugin
  *
- * @version 1.0.5
+ * @version 1.0.6
  * @author Scott Boms <plugins@scottboms.com>
  * @copyright Scott Boms <plugins@scottboms.com>
  * @link https://github.com/scottboms/kirby-microseasons
