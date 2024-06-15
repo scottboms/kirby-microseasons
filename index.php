@@ -21,18 +21,18 @@ Kirby::plugin(
   ],
   version: '1.0.6',
   extends: [
-  'options' => [
-    'cache' => True,
-    'wrapper' => 'div',
-    'class' => 'microseasons',
-    'includedates' => True,
-    'dateformat' => 'M d'
-  ],
-  'snippets' => [
-    'microseasons' => __DIR__ . '/snippets/microseasons.php'
-  ],
-  'sections' => [
-    'microseasons' => require __DIR__ . '/sections/microseasons.php'
+    'options' => [
+      'cache' => True,
+      'wrapper' => 'div',
+      'class' => 'microseasons',
+      'includedates' => True,
+      'dateformat' => 'M d'
+    ],
+    'snippets' => [
+      'microseasons' => __DIR__ . '/snippets/microseasons.php'
+    ],
+    'sections' => [
+      'microseasons' => require __DIR__ . '/sections/microseasons.php'
+    ]
   ]
-
-]);
+);
