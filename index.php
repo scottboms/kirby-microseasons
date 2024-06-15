@@ -19,7 +19,7 @@ Kirby::plugin(
   info: [
     'homepage' => 'https://github.com/scottboms/kirby-microseasons'
   ],
-  version: '1.0.6',
+  version: '1.0.7',
   extends: [
     'options' => [
       'cache' => True,
