@@ -22,7 +22,14 @@ class Season {
     // convert $today passed to 4-character mmdd format
     // since we don't care about the specific year
     $timestamp = Date::createFromFormat('Y-m-d', $today);
-    $currentYear = Date::createFromFormat('Y-m-d', $today)->format('Y');
+    if(!$timestamp) {
+      // fallback to the current date if $today is invalid
+      $today = date('Y-m-d');
+      $timestamp = Date::createFromFormat('Y-m-d', $today);
+    }
+
+    // safely get the year from the parsed date
+    $currentYear = $timestamp ? $timestamp->format('Y') : date('Y');
 
     $wrapper = option('scottboms.microseasons.wrapper') ?? 'div';
     $class = option('scottboms.microseasons.class') ?? 'microseasons';
@@ -68,7 +75,7 @@ class Season {
   }
 
   public static function convertDateFormat($dateString): string {
-    $reformattedDate = $dateString->format(option("scottboms.microseasons.dateformat")) ?? $dateString->format('M d');
+    $reformattedDate = $dateString->format('M d') ?? $dateString->format(option("scottboms.microseasons.dateformat"));
     return $reformattedDate;
   }
 }
