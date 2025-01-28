@@ -2,7 +2,7 @@
   "name": "kirby-microseasons",
   "description": "Kirby plugin to output the current Japanese microseason information",
   "author": "Scott Boms <plugins@scottboms.com>",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "kirby-plugin",
   "license": "MIT"
 }
