@@ -4,7 +4,7 @@ Output information for one of the [72 Japanese micro season](https://www.nippon.
 
 ## Requirements
 
-- [**Kirby**](https://getkirby.com/) 4.x
+- [**Kirby**](https://getkirby.com/) 4.x or 5.x
 
 ## Installation
 

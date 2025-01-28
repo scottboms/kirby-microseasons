@@ -75,7 +75,9 @@ class Season {
   }
 
   public static function convertDateFormat($dateString): string {
-    $reformattedDate = $dateString->format('M d') ?? $dateString->format(option("scottboms.microseasons.dateformat"));
+    $dateFormat = option("scottboms.microseasons.dateformat") ?? 'M d';
+
+    $reformattedDate = $dateString->format($dateFormat);
     return $reformattedDate;
   }
 }
