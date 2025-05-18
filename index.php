@@ -18,7 +18,7 @@ use Kirby\Cms\App as Kirby;
 
 // validate Kirby version
 if (Semver::satisfies(Kirby::version() ?? '0.0.0', '~4.0 || ~5.0') === false) {
-	throw new Exception('HTML5 Video Tag requires Kirby 4 or 5');
+	throw new Exception('Microseasons requires Kirby 4 or 5');
 }
 
 Kirby::plugin(
@@ -26,7 +26,7 @@ Kirby::plugin(
   info: [
     'homepage' => 'https://github.com/scottboms/kirby-microseasons'
   ],
-  version: '1.0.8',
+  version: '1.0.9',
   extends: [
     'options' => [
       'cache' => True,
