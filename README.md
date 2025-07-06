@@ -1,5 +1,7 @@
 # Japanese Micro Seasons Plugin for Kirby
 
+![Plugin Preview](src/assets/microseasons-plugin.jpg)
+
 Output information for one of the [72 Japanese micro season](https://www.nippon.com/en/features/h00124/) based on the current date directly into your Kirby templates and customize using the provided options in your Kirby `config.php` file.
 
 ## Requirements
@@ -10,11 +12,15 @@ Output information for one of the [72 Japanese micro season](https://www.nippon.
 
 ### [Kirby CLI](https://github.com/getkirby/cli)
 
-    kirby plugin:install scottboms/kirby-microseasons
+```
+kirby plugin:install scottboms/kirby-microseasons
+```
 
 ### Git Submodule
 
-    $ git submodule add https://github.com/scottboms/kirby-microseasons.git site/plugins/kirby-microseasons
+```
+$ git submodule add https://github.com/scottboms/kirby-microseasons.git site/plugins/kirby-microseasons
+```
 
 ### Copy and Paste
 
@@ -25,26 +31,35 @@ Output information for one of the [72 Japanese micro season](https://www.nippon.
 
 In any template, drop in the following line to include the output from this plugin in your site.
 
-    <?= snippet('microseasons') ?>
+```
+	<?= snippet('microseasons') ?>
+```
 
 ## Configuration Options
 
 If you want to modify the wrapper HTML element, change the wrapper class, or output the date information in a custom format, you can configure this using the included plugin options. Date formatting follows the [available format options from PHP](https://www.php.net/manual/en/function.date.php).
 
-    'scottboms.microseasons' => [
-      'wrapper' => 'div', // e.g. div, article, section, span, etc.
-      'class' => 'microseasons', 
-      'includedates' => True, // True | False
-      'dateformat' => 'M d, Y' // e.g. 'M d', 'Y-m-d', etc.
-    ],
+```php
+<?php
+	return [
+		'scottboms.microseasons' => [
+			'wrapper' => 'div', // e.g. div, article, section, span, etc.
+			'class' => 'microseasons', 
+			'includedates' => True, // True | False
+			'dateformat' => 'M d, Y' // e.g. 'M d', 'Y-m-d', etc.
+		],
+	]
+```
 
 ## Section
 
 The plugin also includes a custom `section` type called `microseasons` that you can use to display information within the panel. This can be added to a blueprint and also adopts any defined configuration options.
 
-    sections:
-      microseasons:
-        type: microseasons
+```yml
+sections:
+	microseasons:
+ 	type: microseasons
+```
 
 ## Disclaimer
 
