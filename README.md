@@ -32,7 +32,7 @@ $ git submodule add https://github.com/scottboms/kirby-microseasons.git site/plu
 In any template, drop in the following line to include the output from this plugin in your site.
 
 ```
-	<?= snippet('microseasons') ?>
+  <?= snippet('microseasons') ?>
 ```
 
 ## Configuration Options
@@ -41,14 +41,14 @@ If you want to modify the wrapper HTML element, change the wrapper class, or out
 
 ```php
 <?php
-	return [
-		'scottboms.microseasons' => [
-			'wrapper' => 'div', // e.g. div, article, section, span, etc.
-			'class' => 'microseasons', 
-			'includedates' => True, // True | False
-			'dateformat' => 'M d, Y' // e.g. 'M d', 'Y-m-d', etc.
-		],
-	]
+  return [
+    'scottboms.microseasons' => [
+      'wrapper' => 'div', // e.g. div, article, section, span, etc.
+      'class' => 'microseasons', 
+      'includedates' => True, // True | False
+      'dateformat' => 'M d, Y' // e.g. 'M d', 'Y-m-d', etc.
+    ],
+  ]
 ```
 
 ## Section
@@ -57,8 +57,8 @@ The plugin also includes a custom `section` type called `microseasons` that you 
 
 ```yml
 sections:
-	microseasons:
- 	type: microseasons
+  microseasons:
+    type: microseasons
 ```
 
 ## Disclaimer
