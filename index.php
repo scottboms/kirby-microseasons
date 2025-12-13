@@ -15,33 +15,29 @@ use Scottboms\Microseasons\Season;
 use Kirby\Toolkit\Date;
 use Kirby\Cms\App;
 
-// shamelessly borrowed from distantnative/retour-for-kirby
-if (
-	version_compare(App::version() ?? '0.0.0', '5.0.0', '<') === true ||
-	version_compare(App::version() ?? '6.0.0', '7.0.0', '>=') === true
-) {
-	throw new Exception('Kirby Microseasons requires Kirby v6 or v7');
+// kirby version compatibility check
+$version = App::version() ?? '0.0.0';
+
+if (version_compare($version, '6.0.0-alpha.1', '<') || version_compare($version, '8.0.0', '>=')) {
+  throw new Exception('ISBN Field requires Kirby v6 or v7');
 }
 
-Kirby::plugin(
-  name: 'scottboms/kirby-microseasons', 
-  info: [
-    'homepage' => 'https://github.com/scottboms/kirby-microseasons'
+Kirby::plugin('scottboms/kirby-microseasons', [
+  'info' => [
+    'homepage' => 'https://github.com/scottboms/kirby-microseasons',
+		'version' => '6.0.0',
   ],
-  version: '1.1.0',
-  extends: [
-    'options' => [
-      'cache' => True,
-      'wrapper' => 'div',
-      'class' => 'microseasons',
-      'includedates' => True,
-      'dateformat' => 'M d'
-    ],
-    'snippets' => [
-      'microseasons' => __DIR__ . '/snippets/microseasons.php'
-    ],
-    'sections' => [
-      'microseasons' => require __DIR__ . '/sections/microseasons.php'
-    ]
-  ]
-);
+  'options' => [
+    'cache' => True,
+    'wrapper' => 'div',
+    'class' => 'microseasons',
+    'includedates' => True,
+    'dateformat' => 'M d'
+  ],
+  'snippets' => [
+    'microseasons' => __DIR__ . '/snippets/microseasons.php'
+  ],
+  'sections' => [
+    'microseasons' => require __DIR__ . '/sections/microseasons.php'
+  ],
+]);
