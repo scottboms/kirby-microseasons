@@ -11,6 +11,6 @@
     "build": "kirbyup src/index.js"
   },
   "devDependencies": {
-    "kirbyup": "^4.0.0-alpha.4"
+    "kirbyup": "4.0.0-alpha.5"
   }
 }

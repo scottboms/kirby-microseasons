@@ -1,4 +1,4 @@
-window.panel.plugin("scottboms/microseasons", {
+panel.plugin("scottboms/microseasons", {
   sections: {
     microseasons: {
       data: function() {
