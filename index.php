@@ -8,27 +8,31 @@
 **/
 
 load([
-  'scottboms\Microseasons\Season' => __DIR__ . '/classes/Microseasons.php'
+  'Scottboms\Microseasons\Season' => __DIR__ . '/classes/Microseasons.php',
+	'Scottboms\Microseasons\MicroseasonsField' => __DIR__ . '/fields/MicroseasonsField.php'
 ]);
 
 use Scottboms\Microseasons\Season;
+use Scottboms\Microseasons\MicroseasonsField;
 use Kirby\Toolkit\Date;
 use Kirby\Cms\App;
 
-// shamelessly borrowed from distantnative/retour-for-kirby
+$version = App::version() ?? '0.0.0';
 if (
-	version_compare(App::version() ?? '0.0.0', '6.0.0', '<') === true ||
-	version_compare(App::version() ?? '0.0.0', '7.0.0', '>=') === true
+    version_compare($version, '6.0.0-beta.1', '<') ||
+    version_compare($version, '7.0.0', '>=')
 ) {
-	throw new Exception('Kirby Microseasons requires Kirby v6');
+    throw new Exception('Microseasons requires Kirby 6');
 }
 
-Kirby::plugin(
-  name: 'scottboms/kirby-microseasons', 
+Kirby::plugin('scottboms/kirby-microseasons', 
   info: [
-    'homepage' => 'https://github.com/scottboms/kirby-microseasons'
+    'homepage' => 'https://github.com/scottboms/kirby-microseasons',
+		'license' => 'MIT',
+		'version' => '6.0.0',
+		'authors' => [['name' => 'Scott Boms']]
   ],
-  version: '6.0.0',
+  
   extends: [
     'options' => [
       'cache' => True,
@@ -40,8 +44,8 @@ Kirby::plugin(
     'snippets' => [
       'microseasons' => __DIR__ . '/snippets/microseasons.php'
     ],
-    'sections' => [
-      'microseasons' => require __DIR__ . '/sections/microseasons.php'
+    'fields' => [
+      'microseasons' => \Scottboms\Microseasons\MicroseasonsField::class
     ]
   ]
 );

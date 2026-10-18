@@ -1,22 +1,30 @@
 panel.plugin('scottboms/microseasons', {
-  sections: {
+  fields: {
     microseasons: {
-      data: function () {
-        return {
-          microSeason: Array
-        }
-      },
-      created: function() {
-        this.load().then(response => {
-          this.microSeason = response.microSeason;
-        });
-      },
+			inheritAttrs: false,
+
+			props: {
+				help: String,
+				label: String,
+				name: String,
+				type: String,
+				microSeason: {
+					type: Object,
+					default: () => ({})
+				}
+			},
+
       template: `
-      <k-section class="k-microseason-section">
-        <k-box style="--width: 1/1">
-          <k-text size="medium"><b>{{ microSeason['period'] }}</b> &mdash; {{ microSeason['name'] }} {{ microSeason['translation'] }} <span class="k-help">({{ microSeason['start'] }}&ndash;{{ microSeason['end'] }})</span></k-text>
-        </k-box>
-      </k-section>`
+      <k-field class="k-microseasons" 
+        :help="help"
+        :input="false"
+        :label="label"
+        :name="name"
+        :type="type">
+          <k-box style="--width: 1/1">
+            <k-text size="medium"><b>{{ microSeason['period'] }}</b> &mdash; {{ microSeason['name'] }} {{ microSeason['translation'] }} <span class="k-help">({{ microSeason['start'] }}&ndash;{{ microSeason['end'] }})</span></k-text>
+          </k-box>
+      </k-field>`
     }
   }
 });
