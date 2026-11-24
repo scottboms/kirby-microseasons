@@ -6,7 +6,7 @@ Output information for one of the [72 Japanese micro season](https://www.nippon.
 
 ## Requirements
 
-- [**Kirby**](https://getkirby.com/) 4.x or 5.x
+- [**Kirby**](https://getkirby.com) 6.x
 
 ## Installation
 
@@ -51,14 +51,14 @@ If you want to modify the wrapper HTML element, change the wrapper class, or out
   ]
 ```
 
-## Section
+## Field
 
-The plugin also includes a custom `section` type called `microseasons` that you can use to display information within the panel. This can be added to a blueprint and also adopts any defined configuration options.
+The plugin also includes a custom `field` type called `microseasons` that you can use to display information within the panel. This can be added to a blueprint and also adopts any defined configuration options.
 
 ```yml
-sections:
-  microseasons:
-    type: microseasons
+fields:
+	microseasons:
+ 	type: microseasons
 ```
 
 ## Disclaimer

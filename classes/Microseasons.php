@@ -2,6 +2,7 @@
 
 namespace Scottboms\Microseasons;
 use Kirby\Toolkit\Date;
+use Kirby\Form\Field\DisplayField;
 
 class Season {
   
